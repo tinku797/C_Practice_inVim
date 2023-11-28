@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+int a;
+printf("Enter a number less than 50: ");
+scanf("%d", &a);
+if(a<50){
+printf("Great! The number you enter was less than 50");
+}
+else printf("The number you entered was not less than 50");
+return 0;
+}
