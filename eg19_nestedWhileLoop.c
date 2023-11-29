@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+int g = 5;
+while(g>=0)
+{
+int e = 0;
+int f = 1;
+while(e<=g)
+{
+printf("%d %d\n",e,f);
+e++;
+f++;
+}
+g--;
+}
+return 0;
+}

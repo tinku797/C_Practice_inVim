@@ -64,26 +64,16 @@ else if(total/5 >=45) printf("Passed, with second division");
 else printf("Passed, with third division");
 }
 else if(fail_count == 1){
-if(sub1_marks < 33 && sub1_marks > 30) {
-printf("Passed with grace of %d marks in sub1", 33-sub1_marks);
+if(sub1_marks < 33 && sub1_marks > 30) printf("Passed with grace of %d marks in sub1", 33-sub1_marks);
 return 0;
-}
-if(sub2_marks < 33 && sub2_marks > 30) {
-printf("Passed with grace of %d marks in sub2", 33-sub2_marks);
+if(sub2_marks < 33 && sub2_marks > 30) printf("Passed with grace of %d marks in sub2", 33-sub2_marks);
 return 0;
-}
-if(sub3_marks < 33 && sub3_marks > 30) {
-printf("Passed with grace of %d marks in sub3", 33-sub3_marks);
+if(sub3_marks < 33 && sub3_marks > 30) printf("Passed with grace of %d marks in sub3", 33-sub3_marks);
 return 0;
-}
-if(sub4_marks < 33 && sub4_marks > 30) {
-printf("Passed with grace of %d marks in sub4", 33-sub4_marks);
+if(sub4_marks < 33 && sub4_marks > 30) printf("Passed with grace of %d marks in sub4", 33-sub4_marks);
 return 0;
-}
-if(sub5_marks < 33 && sub5_marks > 30) {
-printf("Passed with grace of %d marks in sub5", 33-sub5_marks);
+if(sub5_marks < 33 && sub5_marks > 30) printf("Passed with grace of %d marks in sub5", 33-sub5_marks);
 return 0;
-}
 printf("Supplementary, with %d percent", total/5);	
 }
 else printf("Failed");

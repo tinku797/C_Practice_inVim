@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+int x;
+int k = 0;
+printf("Enter a number: ");
+scanf("%d", &x);
+while(k != 3)
+{
+x = x+1;
+k = k+1;
+}
+printf("The entered value incremented by 3 is %d",x);
+return 0;
+}

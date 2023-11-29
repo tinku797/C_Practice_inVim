@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int x = 1;
+printf("The value of x is %d\n", x);
+while(x<5)
+{
+x++;
+printf("The value of x is %d\n", x);
+}
+return 0;
+}
