@@ -7,9 +7,9 @@ printf("Enter a number greater than 1, to be evaluated as a Prime number: ");
 scanf("%d",&inputNumber);
 
 //input validation code
-if(inputNumber < 1)
+if(inputNumber <= 1)
 {
-printf("Invalid input: entered number was less than 1");
+printf("Invalid input: entered number %d was less than or equal to 1\n",inputNumber);
 return 0;
 }
 
