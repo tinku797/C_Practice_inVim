@@ -45,14 +45,22 @@ scanf("%d",&arr[i][j]);
 
 else if(choice == 2)
 {
+int columnTotals[columns];
+for(i=0;i<columns;i++) columnTotals[i] = 0;
 for(i=0;i<rows;i++)
 {
+int rowTotal = 0;
 for(j=0;j<columns;j++)
 {
-printf("%d  ",arr[i][j]);
+printf("%5d  ",arr[i][j]);
+rowTotal += arr[i][j];
+columnTotals[j] += arr[i][j];
 }
+printf("%5d",rowTotal);
 printf("\n");
 }
+
+for(i=0;i<columns;i++) printf("%5d  ",columnTotals[i]);
 }
 
 else if(choice == 3)
